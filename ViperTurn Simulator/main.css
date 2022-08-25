@@ -4,7 +4,8 @@ body {
 
 .Inputs {
     position: absolute;
-    right: 100px;
+    right: 200px;
+    top: 150px;
 }
 
 .NumPad {
@@ -218,4 +219,27 @@ body {
     margin-top: 5px;
     background-color:red;
     color: white;
+}
+
+.Monitor {
+    position: absolute;
+    right: 600px;
+    top: 120px;
+    width: 600px;
+    height: 600px;
+    outline: 2px;
+    outline-style: solid;
+}
+
+.ProgramPage {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+}
+
+.alert {
+    padding: 20px;
+    background-color: aquamarine; /* Red */
+    color: white;
+    margin-bottom: 15px;
 }
