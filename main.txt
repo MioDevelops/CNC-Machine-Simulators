@@ -1,0 +1,245 @@
+body {
+    background-color: gray;
+}
+
+.Inputs {
+    position: absolute;
+    right: 200px;
+    top: 150px;
+}
+
+.NumPad {
+    display: grid;
+    grid-template-columns: repeat(3, 75px);
+}
+
+.NumPad > button {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 0px;
+    padding: 2px;
+    margin-bottom: 5px;
+    background-color:beige;
+}
+
+.NumPad > button > p {
+    font-size: 30px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+.NumPad > .Exceptions {
+    display: grid;
+    grid-template-columns: repeat(3, 75px);
+}
+
+.NumPad > .Exceptions > button {
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    background-color:beige;
+}
+
+.NumPad > .Exceptions > button > p {
+    margin-top: 0%;
+    font-size: 20px;
+}
+
+.EnterControls {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(1, 75px);
+    right: -20px;
+    top: 0px;
+    width: 0px;
+    height: 0px;
+    background-color: gray;
+}
+
+.EnterControls > button {
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    padding: 2px;
+    margin-bottom: 5px;
+    background-color:aqua;
+    color: white;
+}
+
+.EnterControls > .Ex1 > button {
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    padding: 2px;
+    margin-top: 15px;
+    background-color:aqua;
+    color: white;
+}
+
+.EnterControls > .Ex2 > button {
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    padding: 1px;
+    margin-top: 5px;
+    background-color:green;
+    color: white;
+}
+
+.PageControls {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3, 75px);
+    width: 0px;
+    height: 0px;
+    margin-top: 15px;
+}
+
+.PageControls > button {
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    padding: 2px;
+    margin-top: 5px;
+    background-color:aqua;
+    color: white;
+}
+
+.PageControls > .Ex1 > button {
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    padding: 2px;
+    margin-top: 5px;
+    padding-top: 7px;
+    font-size: 16px;
+    background-color:aqua;
+    color: white;
+}
+
+.PageControls > .Ex1 > button > p {
+    font-size: 16px;
+}
+
+.PageControls > .Exceptions {
+    display: grid;
+    grid-template-columns: repeat(3, 75px);
+}
+
+.PageControls > .Exceptions > button {
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    padding: 2px;
+    margin-top: 5px;
+    padding-top: 15px;
+    font-size: 16px;
+    background-color:aqua;
+    color: white;
+}
+
+.PageControls > .Exceptions > button > p {
+    margin-top: 0%;
+    font-size: 17px;
+}
+
+.PageCursor {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(1, 75px);
+    width: 0px;
+    height: 0px;
+    margin-top: -25px;
+    right: 320px;
+    text-align: center;
+}
+
+.PageCursor > p {
+    font-size: 15px;
+    margin-bottom: -2px;
+    color: white;
+    font-size: 20px;
+}
+
+.PageCursor > button {
+    width: 70px;
+    height: 70px;
+    font-size: 40px;
+    padding: 2px;
+    margin-top: 5px;
+    background-color:aqua;
+    color: white;
+}
+
+.PageCursor > button > p {
+    margin-top: 5px;
+}
+
+.EditCursor {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(1, 75px);
+    width: 0px;
+    height: 0px;
+    margin-top: -265px;
+    right: 320px;
+    text-align: center;
+}
+
+.EditCursor > p {
+    font-size: 15px;
+    margin-bottom: -2px;
+    color: white;
+    font-size: 20px;
+}
+
+.EditCursor > button {
+    width: 70px;
+    height: 70px;
+    font-size: 40px;
+    padding: 2px;
+    margin-top: 5px;
+    background-color:aqua;
+    color: white;
+}
+
+.EditCursor > button > p {
+    margin-top: 5px;
+}
+
+.Inputs > button {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    right: 250px;
+    top: -5px;
+    padding: 0%;
+    margin-top: 5px;
+    background-color:red;
+    color: white;
+}
+
+.Monitor {
+    position: absolute;
+    right: 600px;
+    top: 120px;
+    width: 600px;
+    height: 600px;
+    outline: 2px;
+    outline-style: solid;
+}
+
+.ProgramPage {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+}
+
+.alert {
+    padding: 20px;
+    background-color: aquamarine; /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
