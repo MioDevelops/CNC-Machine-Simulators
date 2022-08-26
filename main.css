@@ -245,4 +245,21 @@ body {
     font-size: 20px;
     margin-bottom: 15px;
     text-align: center;
+    opacity: 0;
+}
+
+.Traveler {
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    width: 500px;
+    height: 600px;
+    outline: 2px;
+    outline-style: solid;
+    outline-color: black;
+    background-color: bisque;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    font-style: italic;
 }

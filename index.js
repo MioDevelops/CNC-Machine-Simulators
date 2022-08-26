@@ -14,3 +14,14 @@ function input(e, type="default") {
     }
     console.log("| Key:", e.innerHTML.split(/[><]+/)[2], "Type:", type, "Repeat: ", Repeat, '|');
 };
+
+async function a() {
+    const res = await fetch("./index.json")
+    console.log(await res.json())
+}
+a()
+
+window.onload = (ev) => {
+    var Saw = document.getElementById("Saw-to").innerHTML
+    console.log(Saw)
+}
